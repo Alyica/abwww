@@ -25,7 +25,7 @@ galleryImgs.forEach(img => {
         lightbox.classList.add('active');
         lightboxImg.src = this.src;
         lightboxImg.alt = this.alt;
-        captionText.textContent = this.closest('.gallery-item').querySelector('.img-caption').textContent;
+        captionText.textContent = this.alt;
     });
 });
 
