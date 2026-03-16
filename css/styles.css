@@ -160,12 +160,12 @@ table td {
 }
 
 table tbody tr:nth-child(odd) {
-    background: linear-gradient(135deg, #a2d2ff 0%, #7fb8ff 100%);
+    background: linear-gradient(135deg, #c5e0ff 0%, #a8ceff 100%);
     background-attachment: fixed;
 }
 
 table tbody tr:nth-child(even) {
-    background: linear-gradient(135deg, #b7e4c7 0%, #8fd9a8 100%);
+    background: linear-gradient(135deg, #d0eedf 0%, #b0e3c5 100%);
     background-attachment: fixed;
 }
 
