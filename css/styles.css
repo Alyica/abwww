@@ -192,7 +192,7 @@ footer {
     margin-top: 40px;
 }
 .galerija-title {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     margin-bottom: 15px;
     color: var(--primary-blue);
     text-align: left;
@@ -200,12 +200,12 @@ footer {
 }
 .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 15px;
 }
 .gallery-img {
     width: 100%;
-    height: 150px;
+    height: 130px;
     object-fit: cover;
     border-radius: 8px;
     cursor: pointer;
@@ -262,7 +262,7 @@ footer {
 
 @media (max-width: 600px) {
     .gallery-grid {
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
     }
 }
 
