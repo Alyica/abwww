@@ -65,6 +65,33 @@ section {
     margin-bottom: 40px;
 }
 
+.results-tabs {
+    display: flex;
+    gap: 8px;
+    border-bottom: 2px solid var(--primary-green);
+    margin-bottom: 20px;
+}
+
+.results-tab {
+    border: 0;
+    border-radius: 8px 8px 0 0;
+    background: #eef9f1;
+    color: var(--dark-text);
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 12px 20px;
+}
+
+.results-tab[aria-selected="true"] {
+    background: var(--primary-green);
+}
+
+.results-tab:focus-visible {
+    outline: 3px solid var(--primary-blue);
+    outline-offset: 2px;
+}
+
 h2 {
     color: #2d3436;
     border-bottom: 3px solid var(--primary-green);

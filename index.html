@@ -43,18 +43,18 @@
         <section id="dosezki">
             <h2>Športni dosežki</h2>
             <ul class="achievements-list">
-                <li>Državna podprvakinja v 3D lokostrelstvu (U18)</li>
-                <li>Državna podprvakinja v dvoranskem lokostrelstvu za SŠ</li>
-                <li>Državna podprvakinja v dvoranskem lokostrelstvu (posamično)</li>
-                <li>Državna podprvakinja v dvoranskem lokostrelstvu (mešane ekipe - članice)</li>
-                <li>3. mesto v skupnem seštevku PTL tekmovanj (članice) 2025</li>
-                <li>Srednje Evropska prvakinja kategorije U21, na tarčnem tekmovanju 70/50m</li>
-                <li>Državna prvakinja 900 krogov, v kategoriji U21</li>
-                <li>Državna podprvakinja v šolskem dvoranskem lokostrelstvu za srednje šole</li>
-                <li>Državna prvakinja v šolskem zunanjem lokostrelstvu za srednje šole</li>
+                <li>Državna prvakinja v 3D lokostrelstvu (U18 - Goli Lok)</li>
+                <li>Državna podprvakinja v dvoranskem lokostrelstvu (posamično - Goli Lok)</li>
+                <li>Državna podprvakinja v dvoranskem lokostrelstvu (mešane ekipe - članice Goli Lok)</li>
+                <li>3. mesto v skupnem seštevku PTL tekmovanj (članice - Goli Lok) 2025</li>
+                <li>Srednje Evropska prvakinja kategorije U21, na tarčnem tekmovanju 70/50m (Goli Lok)</li>
+                <li>Državna prvakinja 900 krogov, v kategoriji U21 Goli Lok</li>
+                <li>Državna podprvakinja v šolskem dvoranskem lokostrelstvu za SŠ (Goli Lok)</li>
+                <li>Državna prvakinja v šolskem zunanjem lokostrelstvu za srednje šole (Goli Lok)</li>
+                <li>Državna prvakinja v AH lokostrelstvu, v kategoriji U18 Goli Lok</li>
             </ul>
             
-            <h3>Rekordi</h3>
+            <h3>Rekordi z golim golokm</h3>
             <table>
                 <thead>
                     <tr>
@@ -119,7 +119,12 @@
         <div class="race-caption">
         </div>
         <section id="rezultati">
-            <h2>Rezultati na tekmovanjih</h2>
+            <div class="results-tabs" role="tablist" aria-label="Rezultati po vrsti loka">
+                <button id="tab-goli-lok" class="results-tab" type="button" role="tab" aria-selected="true" aria-controls="panel-goli-lok" tabindex="0">Goli lok</button>
+                <button id="tab-ukrivljeni-lok" class="results-tab" type="button" role="tab" aria-selected="false" aria-controls="panel-ukrivljeni-lok" tabindex="-1">Ukrivljeni lok</button>
+            </div>
+            <div id="panel-goli-lok" class="results-panel" role="tabpanel" aria-labelledby="tab-goli-lok" tabindex="0">
+            <h2>Rezultati na tekmovanjih z GOLIM LOKOM</h2>
             <h3>3D tekmovanje - Draga (Begunje na Gorenjskem)</h3>
             <p>v soboto 28.2.2026 je v Dragi v Begunjah na Gorenjskem potekalo tekmovanjem, na katerem sem dosegla 1 mesto in 488 točk</p>
             <h3>3D tekmovanje - Šujica pri Dobravi</h3>
@@ -152,7 +157,7 @@
             <p>v soboto 20.6.2026 je v Mariboru potekalo tekmovanje 50/70m, na katerem sem bila 1 mesto z 427 točkami.</p>
             <h3>3D tekmovanje - Turjak</h3>
             <p>v soboto 27.6.2026 je v Turjaki potekalo 3D tekmovanje, kjer sem dosegla 1 mesto in 420 točk.</p>
-            <h3>Mladinsko tekmovanje - Ljubljana Stožice</h3></h>
+            <h3>Mladinsko tekmovanje - Ljubljana Stožice</h3>
             <p>v nedeljo 28.6.2026 je v Ljubljana Stožice potekal zame zadnji Mldinski pokal 50/70m, kjer sem dosgla 1 mesto in 654 točk. Poleg te nagrade pa sem prejela še pokal za 1 mesto za tekmovanje najboljšega lokostrelca kategorije Goli Lok U18 moški in ženske.</p>
             <h3>AH tekmovanje - Boč</h3>
             <p>v soboto 11.7.2026 je na Boču potekalo AH tekmovanje kjer sem dosegla 1 mesto z 234 točkami</p>
@@ -168,6 +173,10 @@
             <p>v soboto 12.9.2026 je v Lendavi potekalo 3D državno prvenstvo in moje zadnje 3d tekmovanje z golim lokom, kjer sem z 1.mestom in 392 točkami dosegla ime državne prvakinje v 3D lokostrelstvu.</p>
             <h3>50/70m tekmovanje - Rakek</h3>
             <p>v soboto 19.9.2026 in v nedeljo 20.9.2026 je v Rakeku potekalo 50/70m tekmovanje, kjer sem v kategporiji U21 z 1.mestom in479 točkami dosegla ime državne prvakinje, v absolutni kategoriji (članice in U21) sem dosegla odlično 3.mesto in skupaj z Gorazdom Starmanom sva dosegla odlično 1.mesto v ekipnih dvobojih.</p>
+            </div>
+            <div id="panel-ukrivljeni-lok" class="results-panel" role="tabpanel" aria-labelledby="tab-ukrivljeni-lok" tabindex="0" hidden>
+                <h2>Rezultati na tekmovanjih z UKRIVLJENIM LOKOM</h2>
+            </div>
        </section>
 
         <!-- Galerija -->
